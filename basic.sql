@@ -38,3 +38,5 @@ ORDER BY marks DESC;
 UPDATE students
 SET marks = 95
 WHERE id = 1;
+DELETE FROM students
+WHERE id = 3;
