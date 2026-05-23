@@ -19,3 +19,8 @@ INNER JOIN courses
 ON students.course_id = courses.course_id;
 CREATE DATABASE school;
 USE school;
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    marks INT
+);
