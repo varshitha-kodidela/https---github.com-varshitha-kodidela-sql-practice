@@ -35,3 +35,6 @@ WHERE marks > 80;
 SELECT * 
 FROM students
 ORDER BY marks DESC;
+UPDATE students
+SET marks = 95
+WHERE id = 1;
