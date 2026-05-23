@@ -29,3 +29,6 @@ INSERT INTO students VALUES
 (2, 'Bob', 90),
 (3, 'Charlie', 78);
 SELECT * FROM students;
+SELECT * 
+FROM students
+WHERE marks > 80;
