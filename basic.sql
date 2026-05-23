@@ -18,3 +18,4 @@ FROM students
 INNER JOIN courses
 ON students.course_id = courses.course_id;
 CREATE DATABASE school;
+USE school;
