@@ -56,3 +56,6 @@ FROM students;
 SELECT *
 FROM students
 WHERE name LIKE 'A%';
+SELECT *
+FROM students
+WHERE marks BETWEEN 80 AND 90;
