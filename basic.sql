@@ -43,3 +43,5 @@ WHERE id = 3;
 DROP TABLE students;
 SELECT DISTINCT marks
 FROM students;
+SELECT COUNT(*) AS total_students
+FROM students;
