@@ -53,3 +53,6 @@ SELECT MIN(marks) AS lowest_marks
 FROM students;
 SELECT SUM(marks) AS total_marks
 FROM students;
+SELECT *
+FROM students
+WHERE name LIKE 'A%';
