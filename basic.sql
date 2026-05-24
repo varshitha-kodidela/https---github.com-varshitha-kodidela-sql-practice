@@ -41,3 +41,5 @@ WHERE id = 1;
 DELETE FROM students
 WHERE id = 3;
 DROP TABLE students;
+SELECT DISTINCT marks
+FROM students;
