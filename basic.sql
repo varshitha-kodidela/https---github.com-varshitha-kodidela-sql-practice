@@ -45,3 +45,5 @@ SELECT DISTINCT marks
 FROM students;
 SELECT COUNT(*) AS total_students
 FROM students;
+SELECT AVG(marks) AS average_marks
+FROM students;
