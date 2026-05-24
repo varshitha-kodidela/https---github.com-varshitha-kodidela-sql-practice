@@ -59,3 +59,6 @@ WHERE name LIKE 'A%';
 SELECT *
 FROM students
 WHERE marks BETWEEN 80 AND 90;
+SELECT *
+FROM students
+WHERE id IN (1, 3);
