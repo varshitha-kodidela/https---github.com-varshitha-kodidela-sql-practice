@@ -69,3 +69,7 @@ ALTER TABLE students
 ADD age INT;
 RENAME TABLE students TO student_data;
 TRUNCATE TABLE student_data;
+CREATE VIEW top_students AS
+SELECT name, marks
+FROM students
+WHERE marks > 85;
