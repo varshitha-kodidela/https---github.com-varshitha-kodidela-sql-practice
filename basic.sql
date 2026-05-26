@@ -65,3 +65,5 @@ WHERE id IN (1, 3);
 SELECT *
 FROM students
 LIMIT 2;
+ALTER TABLE students
+ADD age INT;
