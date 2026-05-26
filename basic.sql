@@ -94,3 +94,10 @@ WHERE marks > (
     SELECT AVG(marks)
     FROM students
 );
+SELECT name,
+CASE
+    WHEN marks >= 90 THEN 'Excellent'
+    WHEN marks >= 75 THEN 'Good'
+    ELSE 'Average'
+END AS performance
+FROM students;
