@@ -88,3 +88,9 @@ SELECT marks, COUNT(*) AS total
 FROM students
 GROUP BY marks
 HAVING COUNT(*) > 1;
+SELECT name, marks
+FROM students
+WHERE marks > (
+    SELECT AVG(marks)
+    FROM students
+);
