@@ -84,3 +84,7 @@ ON students.course_id = courses.course_id;
 SELECT marks, COUNT(*) AS total
 FROM students
 GROUP BY marks;
+SELECT marks, COUNT(*) AS total
+FROM students
+GROUP BY marks
+HAVING COUNT(*) > 1;
