@@ -67,3 +67,4 @@ FROM students
 LIMIT 2;
 ALTER TABLE students
 ADD age INT;
+RENAME TABLE students TO student_data;
