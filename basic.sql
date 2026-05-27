@@ -105,3 +105,7 @@ CREATE TABLE employees (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50)
 );
+CREATE TABLE users (
+    id INT,
+    username VARCHAR(50) NOT NULL
+);
