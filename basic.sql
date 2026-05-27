@@ -108,4 +108,7 @@ CREATE TABLE employees (
 CREATE TABLE users (
     id INT,
     username VARCHAR(50) NOT NULL
+);CREATE TABLE customers (
+    id INT,
+    email VARCHAR(100) UNIQUE
 );
