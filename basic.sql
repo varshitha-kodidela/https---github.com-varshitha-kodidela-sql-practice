@@ -127,3 +127,10 @@ ON students;
 SELECT name FROM students
 UNION
 SELECT name FROM teachers;
+SELECT name
+FROM students
+WHERE EXISTS (
+    SELECT *
+    FROM courses
+    WHERE students.course_id = courses.course_id
+);
