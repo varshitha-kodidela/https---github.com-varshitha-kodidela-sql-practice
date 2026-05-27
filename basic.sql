@@ -124,3 +124,6 @@ CREATE INDEX idx_name
 ON students(name);
 DROP INDEX idx_name
 ON students;
+SELECT name FROM students
+UNION
+SELECT name FROM teachers;
