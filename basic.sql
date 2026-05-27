@@ -101,3 +101,7 @@ CASE
     ELSE 'Average'
 END AS performance
 FROM students;
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50)
+);
