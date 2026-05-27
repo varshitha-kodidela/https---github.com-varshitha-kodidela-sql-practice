@@ -122,3 +122,5 @@ CREATE TABLE products (
 );
 CREATE INDEX idx_name
 ON students(name);
+DROP INDEX idx_name
+ON students;
