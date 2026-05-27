@@ -134,3 +134,5 @@ WHERE EXISTS (
     FROM courses
     WHERE students.course_id = courses.course_id
 );
+SELECT *
+FROM top_students;
