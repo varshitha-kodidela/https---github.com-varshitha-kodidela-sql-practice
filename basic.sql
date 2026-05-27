@@ -112,3 +112,7 @@ CREATE TABLE users (
     id INT,
     email VARCHAR(100) UNIQUE
 );
+CREATE TABLE orders (
+    order_id INT,
+    status VARCHAR(20) DEFAULT 'Pending'
+);
