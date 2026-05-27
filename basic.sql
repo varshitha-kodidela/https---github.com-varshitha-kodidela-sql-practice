@@ -120,3 +120,5 @@ CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(50)
 );
+CREATE INDEX idx_name
+ON students(name);
