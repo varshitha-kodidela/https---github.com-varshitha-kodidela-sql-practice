@@ -116,3 +116,7 @@ CREATE TABLE orders (
     order_id INT,
     status VARCHAR(20) DEFAULT 'Pending'
 );
+CREATE TABLE products (
+    product_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(50)
+);
