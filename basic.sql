@@ -140,3 +140,6 @@ SELECT students.name, courses.course_name
 FROM students
 RIGHT JOIN courses
 ON students.course_id = courses.course_id;
+SELECT students.name, courses.course_name
+FROM students
+CROSS JOIN courses;
