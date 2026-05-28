@@ -146,3 +146,6 @@ CROSS JOIN courses;
 SELECT A.name AS Student1, B.name AS Student2
 FROM students A, students B
 WHERE A.id <> B.id;
+SELECT *
+FROM students
+WHERE marks IS NULL;
