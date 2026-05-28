@@ -160,3 +160,4 @@ SELECT UPPER(name) AS uppercase_name
 FROM students;
 SELECT LOWER(name) AS lowercase_name
 FROM students;
+SELECT CURRENT_DATE();
