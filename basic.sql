@@ -143,3 +143,6 @@ ON students.course_id = courses.course_id;
 SELECT students.name, courses.course_name
 FROM students
 CROSS JOIN courses;
+SELECT A.name AS Student1, B.name AS Student2
+FROM students A, students B
+WHERE A.id <> B.id;
