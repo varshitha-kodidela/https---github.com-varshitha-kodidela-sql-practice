@@ -149,3 +149,6 @@ WHERE A.id <> B.id;
 SELECT *
 FROM students
 WHERE marks IS NULL;
+SELECT *
+FROM students
+WHERE marks IS NOT NULL;
