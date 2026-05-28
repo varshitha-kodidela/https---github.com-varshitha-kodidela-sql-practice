@@ -152,3 +152,5 @@ WHERE marks IS NULL;
 SELECT *
 FROM students
 WHERE marks IS NOT NULL;
+SELECT ROUND(AVG(marks), 2) AS average_marks
+FROM students;
