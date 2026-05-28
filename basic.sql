@@ -154,3 +154,5 @@ FROM students
 WHERE marks IS NOT NULL;
 SELECT ROUND(AVG(marks), 2) AS average_marks
 FROM students;
+SELECT name, LENGTH(name) AS name_length
+FROM students;
