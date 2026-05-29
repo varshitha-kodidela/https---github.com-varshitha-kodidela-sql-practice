@@ -175,3 +175,5 @@ ALTER TABLE students
 ADD city VARCHAR(50);
 ALTER TABLE students
 MODIFY marks FLOAT;
+ALTER TABLE students
+DROP COLUMN city;
