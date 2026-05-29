@@ -163,3 +163,5 @@ FROM students;
 SELECT CURRENT_DATE();
 SELECT CONCAT(name, ' scored ', marks) AS result
 FROM students;
+SELECT COUNT(DISTINCT marks) AS unique_marks
+FROM students;
