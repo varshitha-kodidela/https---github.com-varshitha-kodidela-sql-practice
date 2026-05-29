@@ -178,3 +178,4 @@ MODIFY marks FLOAT;
 ALTER TABLE students
 DROP COLUMN city;
 SHOW TABLES;
+DESCRIBE students;
