@@ -165,3 +165,5 @@ SELECT CONCAT(name, ' scored ', marks) AS result
 FROM students;
 SELECT COUNT(DISTINCT marks) AS unique_marks
 FROM students;
+SELECT name AS student_name
+FROM students;
