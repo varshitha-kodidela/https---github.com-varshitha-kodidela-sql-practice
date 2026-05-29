@@ -173,3 +173,5 @@ ORDER BY name ASC;
 DELETE FROM students;
 ALTER TABLE students
 ADD city VARCHAR(50);
+ALTER TABLE students
+MODIFY marks FLOAT;
