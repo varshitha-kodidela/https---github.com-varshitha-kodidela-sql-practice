@@ -161,3 +161,5 @@ FROM students;
 SELECT LOWER(name) AS lowercase_name
 FROM students;
 SELECT CURRENT_DATE();
+SELECT CONCAT(name, ' scored ', marks) AS result
+FROM students;
