@@ -167,3 +167,6 @@ SELECT COUNT(DISTINCT marks) AS unique_marks
 FROM students;
 SELECT name AS student_name
 FROM students;
+SELECT *
+FROM students
+ORDER BY name ASC;
