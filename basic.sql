@@ -171,3 +171,5 @@ SELECT *
 FROM students
 ORDER BY name ASC;
 DELETE FROM students;
+ALTER TABLE students
+ADD city VARCHAR(50);
