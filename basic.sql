@@ -186,3 +186,4 @@ FROM students;
 SELECT NOW();
 SELECT YEAR(NOW()) AS current_year;
 SELECT MONTH(NOW()) AS current_month;
+SELECT DAY(NOW()) AS current_day;
