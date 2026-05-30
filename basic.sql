@@ -179,3 +179,5 @@ ALTER TABLE students
 DROP COLUMN city;
 SHOW TABLES;
 DESCRIBE students;
+SELECT REPLACE(name, 'a', '@') AS modified_name
+FROM students;
