@@ -196,3 +196,8 @@ LIMIT 3;
 SELECT MAX(marks) AS second_highest
 FROM students
 WHERE marks < (SELECT MAX(marks) FROM students);
+SELECT
+    name,
+    marks,
+    ROW_NUMBER() OVER (ORDER BY marks DESC) AS rank_no
+FROM students;
