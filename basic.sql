@@ -193,3 +193,6 @@ SELECT *
 FROM students
 ORDER BY marks DESC
 LIMIT 3;
+SELECT MAX(marks) AS second_highest
+FROM students
+WHERE marks < (SELECT MAX(marks) FROM students);
