@@ -184,3 +184,4 @@ FROM students;
 SELECT SUBSTRING(name, 1, 3) AS short_name
 FROM students;
 SELECT NOW();
+SELECT YEAR(NOW()) AS current_year;
