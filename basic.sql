@@ -189,3 +189,7 @@ SELECT MONTH(NOW()) AS current_month;
 SELECT DAY(NOW()) AS current_day;
 SELECT IFNULL(marks, 0) AS marks
 FROM students;
+SELECT *
+FROM students
+ORDER BY marks DESC
+LIMIT 3;
